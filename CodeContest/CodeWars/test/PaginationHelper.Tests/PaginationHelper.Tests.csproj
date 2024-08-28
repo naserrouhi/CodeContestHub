@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PaginationHelper\PaginationHelper.csproj" />
+    <ProjectReference Include="..\..\src\PaginationHelper\PaginationHelper.csproj" />
   </ItemGroup>
 
   <ItemGroup>

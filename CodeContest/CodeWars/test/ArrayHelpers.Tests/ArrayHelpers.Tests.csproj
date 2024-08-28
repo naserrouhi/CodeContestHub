@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ArrayHelpers\ArrayHelpers.csproj" />
+    <ProjectReference Include="..\..\src\ArrayHelpers\ArrayHelpers.csproj" />
   </ItemGroup>
 
   <ItemGroup>
