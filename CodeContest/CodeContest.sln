@@ -21,9 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayHelpers.Tests", "CodeW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationHelper.Tests", "CodeWars\test\PaginationHelper.Tests\PaginationHelper.Tests.csproj", "{756BD098-AE93-4033-A3BF-016B7BAE1E87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSubclasses_AdamAndEve", "CodeWars\src\BasicSubclasses_AdamAndEve\BasicSubclasses_AdamAndEve.csproj", "{2AA6F97B-3854-4171-83F3-FE147897C7FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicSubclasses_AdamAndEve", "CodeWars\src\BasicSubclasses_AdamAndEve\BasicSubclasses_AdamAndEve.csproj", "{2AA6F97B-3854-4171-83F3-FE147897C7FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSubclasses_AdamAndEve.Tests", "CodeWars\test\BasicSubclasses_AdamAndEve.Tests\BasicSubclasses_AdamAndEve.Tests.csproj", "{0394A9EE-7FBC-48DD-B6CD-0B42FB741056}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicSubclasses_AdamAndEve.Tests", "CodeWars\test\BasicSubclasses_AdamAndEve.Tests\BasicSubclasses_AdamAndEve.Tests.csproj", "{0394A9EE-7FBC-48DD-B6CD-0B42FB741056}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodewarsStyleRankingSystem", "CodeWars\src\CodewarsStyleRankingSystem\CodewarsStyleRankingSystem.csproj", "{00ED37E5-3E06-4FB7-BC5F-CFE5F61A08F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodewarsStyleRankingSystem.Tests", "CodeWars\test\CodewarsStyleRankingSystem.Tests\CodewarsStyleRankingSystem.Tests.csproj", "{AE2924A6-D946-4A39-B199-227EC0CE3CD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{0394A9EE-7FBC-48DD-B6CD-0B42FB741056}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0394A9EE-7FBC-48DD-B6CD-0B42FB741056}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0394A9EE-7FBC-48DD-B6CD-0B42FB741056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00ED37E5-3E06-4FB7-BC5F-CFE5F61A08F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00ED37E5-3E06-4FB7-BC5F-CFE5F61A08F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00ED37E5-3E06-4FB7-BC5F-CFE5F61A08F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00ED37E5-3E06-4FB7-BC5F-CFE5F61A08F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2924A6-D946-4A39-B199-227EC0CE3CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2924A6-D946-4A39-B199-227EC0CE3CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2924A6-D946-4A39-B199-227EC0CE3CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2924A6-D946-4A39-B199-227EC0CE3CD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +90,8 @@ Global
 		{756BD098-AE93-4033-A3BF-016B7BAE1E87} = {DE6656A8-F6D7-4493-9409-8E99DAFB7550}
 		{2AA6F97B-3854-4171-83F3-FE147897C7FE} = {AD382A70-E17D-4BE0-8EEF-BE89F5AB21D3}
 		{0394A9EE-7FBC-48DD-B6CD-0B42FB741056} = {DE6656A8-F6D7-4493-9409-8E99DAFB7550}
+		{00ED37E5-3E06-4FB7-BC5F-CFE5F61A08F5} = {AD382A70-E17D-4BE0-8EEF-BE89F5AB21D3}
+		{AE2924A6-D946-4A39-B199-227EC0CE3CD8} = {DE6656A8-F6D7-4493-9409-8E99DAFB7550}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32768103-4A05-4B00-98B6-A6F8FF37FA0E}
