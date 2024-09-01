@@ -7,34 +7,28 @@ public class User
     private int _totalProgress;
 
     public int Progress => _totalProgress % 100;
-    public int Rank => _acceptableRanks[_totalProgress / 100];
+    public int Rank => _acceptableRanks[Math.Min(_totalProgress / 100, _acceptableRanks.Length - 1)];
 
     public void IncreaseProgress(int actRank)
     {
         if (actRank > 8 || actRank == 0 || actRank < -8)
-            throw new ArgumentException();
+            throw new ArgumentException("actRank is not valid.");
 
-        var ranksSubtraction = actRank - Rank;
+        var rankIndex = Array.IndexOf(_acceptableRanks, Rank);
+        var actRankIndex = Array.IndexOf(_acceptableRanks, actRank);
 
-        if (ranksSubtraction < -1)
-            return;
+        var rankDifference = actRankIndex - rankIndex;
 
-        if (ranksSubtraction > 0)
-        {
-            _totalProgress += (10 * ranksSubtraction * ranksSubtraction);
-            return;
-        }
-
-        if (ranksSubtraction == 0)
-        {
+        if (rankDifference > 0)
+            _totalProgress += (10 * rankDifference * rankDifference);
+        else if (rankDifference == 0)
             _totalProgress += 3;
-            return;
-        }
-
-        if (ranksSubtraction == -1)
-        {
+        else if (rankDifference == -1)
             _totalProgress += 1;
-            return;
-        }
+
+        var maxProgress = (_acceptableRanks.Length - 1) * 100;
+
+        if (_totalProgress > maxProgress)
+            _totalProgress = maxProgress;
     }
 }

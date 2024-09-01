@@ -28,6 +28,20 @@ public class UserTests
         Assert.Throws<ArgumentException>(() => user.IncreaseProgress(rank));
     }
 
+    [Fact]
+    public void TestValidMultipleRankProgression()
+    {
+        var user = new User();
+
+        user.IncreaseProgress(8);
+        user.IncreaseProgress(8);
+        user.IncreaseProgress(8);
+        user.IncreaseProgress(8);
+
+        Assert.Equal(8, user.Rank);
+        Assert.Equal(0, user.Progress);
+    }
+
     private void AssertRankProgression(int rank, User user, int expectedRank, int expectedProgress)
     {
         Assert.True(user.Rank == expectedRank, $"Applied Rank: {rank}; Expected rank: {expectedRank}; Actual: {user.Rank};");
