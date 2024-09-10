@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodeWars\src\OOP_ObjectOrientedPiracy\OOP_ObjectOrientedPiracy.csproj" />
+    <ProjectReference Include="..\..\src\ClassyClasses\ClassyClasses.csproj" />
   </ItemGroup>
 
   <ItemGroup>
