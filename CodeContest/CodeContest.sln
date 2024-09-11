@@ -57,13 +57,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorGhost", "CodeWars\src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorGhost.Tests", "CodeWars\test\ColorGhost.Tests\ColorGhost.Tests.csproj", "{CEC7BD3B-0E5E-4E74-9414-5ACE73DFCA18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "80sKids7_SheIsASmallWonder", "CodeWars\src\80sKids7_SheIsASmallWonder\80sKids7_SheIsASmallWonder.csproj", "{0F4F45A4-BD1C-4B17-846D-D689AC447B80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "80sKids7_SheIsASmallWonder", "CodeWars\src\80sKids7_SheIsASmallWonder\80sKids7_SheIsASmallWonder.csproj", "{0F4F45A4-BD1C-4B17-846D-D689AC447B80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "80sKids7_SheIsASmallWonder.Tests", "CodeWars\test\80sKids7_SheIsASmallWonder.Tests\80sKids7_SheIsASmallWonder.Tests.csproj", "{15158BB6-EDCA-419B-B10E-04FB77D6924B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "80sKids7_SheIsASmallWonder.Tests", "CodeWars\test\80sKids7_SheIsASmallWonder.Tests\80sKids7_SheIsASmallWonder.Tests.csproj", "{15158BB6-EDCA-419B-B10E-04FB77D6924B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingSpheres", "CodeWars\src\BuildingSpheres\BuildingSpheres.csproj", "{A08458DE-8008-4DC7-9CF8-563A7291070E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingSpheres", "CodeWars\src\BuildingSpheres\BuildingSpheres.csproj", "{A08458DE-8008-4DC7-9CF8-563A7291070E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingSpheres.Tests", "CodeWars\test\BuildingSpheres.Tests\BuildingSpheres.Tests.csproj", "{3F5C497D-F939-4C25-BDB3-3C01427A7D2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingSpheres.Tests", "CodeWars\test\BuildingSpheres.Tests\BuildingSpheres.Tests.csproj", "{3F5C497D-F939-4C25-BDB3-3C01427A7D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinkful_ObjectDrills_Quarks", "CodeWars\src\Thinkful_Object Drills_Quarks\Thinkful_ObjectDrills_Quarks.csproj", "{A2E35701-7FC9-488E-BF2E-8491ED6CEE85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinkful_ObjectDrills_Quarks.Tests", "CodeWars\test\Thinkful_ObjectDrills_Quarks.Tests\Thinkful_ObjectDrills_Quarks.Tests.csproj", "{46C07D27-30DA-48EC-9636-983F59C99639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +187,14 @@ Global
 		{3F5C497D-F939-4C25-BDB3-3C01427A7D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F5C497D-F939-4C25-BDB3-3C01427A7D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F5C497D-F939-4C25-BDB3-3C01427A7D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E35701-7FC9-488E-BF2E-8491ED6CEE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E35701-7FC9-488E-BF2E-8491ED6CEE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E35701-7FC9-488E-BF2E-8491ED6CEE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E35701-7FC9-488E-BF2E-8491ED6CEE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C07D27-30DA-48EC-9636-983F59C99639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C07D27-30DA-48EC-9636-983F59C99639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C07D27-30DA-48EC-9636-983F59C99639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C07D27-30DA-48EC-9636-983F59C99639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -218,6 +230,8 @@ Global
 		{15158BB6-EDCA-419B-B10E-04FB77D6924B} = {DE6656A8-F6D7-4493-9409-8E99DAFB7550}
 		{A08458DE-8008-4DC7-9CF8-563A7291070E} = {AD382A70-E17D-4BE0-8EEF-BE89F5AB21D3}
 		{3F5C497D-F939-4C25-BDB3-3C01427A7D2E} = {DE6656A8-F6D7-4493-9409-8E99DAFB7550}
+		{A2E35701-7FC9-488E-BF2E-8491ED6CEE85} = {AD382A70-E17D-4BE0-8EEF-BE89F5AB21D3}
+		{46C07D27-30DA-48EC-9636-983F59C99639} = {DE6656A8-F6D7-4493-9409-8E99DAFB7550}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32768103-4A05-4B00-98B6-A6F8FF37FA0E}
