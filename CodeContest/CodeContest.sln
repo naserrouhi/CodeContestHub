@@ -69,6 +69,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinkful_ObjectDrills_Quark
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinkful_ObjectDrills_Quarks.Tests", "CodeWars\test\Thinkful_ObjectDrills_Quarks.Tests\Thinkful_ObjectDrills_Quarks.Tests.csproj", "{46C07D27-30DA-48EC-9636-983F59C99639}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateSudoku", "CodeWars\src\ValidateSudoku\ValidateSudoku.csproj", "{FCBBFDB5-30C8-4ED0-A573-755CA70B153C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateSudoku.Tests", "CodeWars\test\ValidateSudoku.Tests\ValidateSudoku.Tests.csproj", "{7DFF4DAA-2953-4DDF-8E0E-DC4EB7A2B01B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +199,14 @@ Global
 		{46C07D27-30DA-48EC-9636-983F59C99639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46C07D27-30DA-48EC-9636-983F59C99639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46C07D27-30DA-48EC-9636-983F59C99639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBBFDB5-30C8-4ED0-A573-755CA70B153C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBBFDB5-30C8-4ED0-A573-755CA70B153C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBBFDB5-30C8-4ED0-A573-755CA70B153C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBBFDB5-30C8-4ED0-A573-755CA70B153C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFF4DAA-2953-4DDF-8E0E-DC4EB7A2B01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFF4DAA-2953-4DDF-8E0E-DC4EB7A2B01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFF4DAA-2953-4DDF-8E0E-DC4EB7A2B01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFF4DAA-2953-4DDF-8E0E-DC4EB7A2B01B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -232,6 +244,8 @@ Global
 		{3F5C497D-F939-4C25-BDB3-3C01427A7D2E} = {DE6656A8-F6D7-4493-9409-8E99DAFB7550}
 		{A2E35701-7FC9-488E-BF2E-8491ED6CEE85} = {AD382A70-E17D-4BE0-8EEF-BE89F5AB21D3}
 		{46C07D27-30DA-48EC-9636-983F59C99639} = {DE6656A8-F6D7-4493-9409-8E99DAFB7550}
+		{FCBBFDB5-30C8-4ED0-A573-755CA70B153C} = {AD382A70-E17D-4BE0-8EEF-BE89F5AB21D3}
+		{7DFF4DAA-2953-4DDF-8E0E-DC4EB7A2B01B} = {DE6656A8-F6D7-4493-9409-8E99DAFB7550}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32768103-4A05-4B00-98B6-A6F8FF37FA0E}
