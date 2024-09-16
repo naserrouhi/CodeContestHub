@@ -7,7 +7,7 @@ public class DemoClassTests
     [Fact]
     public void CheckConstructorExists()
     {
-        var sut = new DemoClass(15);
+        var demoClass = new DemoClass(15);
     }
 
     [Fact]
@@ -15,11 +15,11 @@ public class DemoClassTests
     {
         for (var i = 0; i < 30; i += 5)
         {
-            var sut = new DemoClass(i);
-            var fi = typeof(DemoClass).GetField("_privateField", BindingFlags.NonPublic | BindingFlags.Instance);
+            var demoClass = new DemoClass(i);
+            var privateField = typeof(DemoClass).GetField("_privateField", BindingFlags.NonPublic | BindingFlags.Instance);
 
-            Assert.NotNull(fi);
-            Assert.Equal(i, fi.GetValue(sut));
+            Assert.NotNull(privateField);
+            Assert.Equal(i, privateField.GetValue(demoClass));
         }
     }
 
@@ -28,13 +28,13 @@ public class DemoClassTests
     {
         for (var i = 0; i < 30; i += 5)
         {
-            var sut = new DemoClass(0);
-            var fi = typeof(DemoClass).GetField("PublicField", BindingFlags.Public | BindingFlags.Instance);
+            var demoClass = new DemoClass(0);
+            var publicField = typeof(DemoClass).GetField("PublicField", BindingFlags.Public | BindingFlags.Instance);
 
-            Assert.NotNull(fi);
-            Assert.Equal("None", fi.GetValue(sut));
-            Assert.Equal("None", sut.PublicField);
-            Assert.True(ReferenceEquals(fi.GetValue(sut), sut.PublicField));
+            Assert.NotNull(publicField);
+            Assert.Equal("None", publicField.GetValue(demoClass));
+            Assert.Equal("None", demoClass.PublicField);
+            Assert.True(ReferenceEquals(publicField.GetValue(demoClass), demoClass.PublicField));
         }
     }
 
@@ -42,24 +42,25 @@ public class DemoClassTests
     public void CheckThatLimitedPropertyExists()
     {
         var type = typeof(DemoClass);
-        var ci = type.GetConstructor([typeof(int)]);
-        var classObject = ci?.Invoke([24]);
-        var pi = type.GetProperty("LimitedProperty", BindingFlags.Instance | BindingFlags.Public);
+        var constructorInfo = type.GetConstructor([typeof(int)]);
+        var classObject = constructorInfo!.Invoke([24]);
+        var propertyInfo = type.GetProperty("LimitedProperty", BindingFlags.Instance | BindingFlags.Public);
 
-        Assert.NotNull(pi);
+        Assert.NotNull(propertyInfo);
 
-        if (pi.GetGetMethod(nonPublic: false) == null)
-            Assert.Fail("Public getter not found");
+        if (propertyInfo.GetGetMethod(nonPublic: false) is null)
+            Assert.Fail("Public getter not found.");
 
-        if (pi.GetSetMethod(nonPublic: true) == null)
-            Assert.Fail("Private setter not found");
+        if (propertyInfo.GetSetMethod(nonPublic: true) is null)
+            Assert.Fail("Private setter not found.");
 
-        var mi = pi.GetSetMethod(true);
+        var methodInfo = propertyInfo.GetSetMethod(true);
 
         for (var i = 0; i < 30; i += 5)
         {
-            mi?.Invoke(classObject, [i]);
-            Assert.Equal(i, ((DemoClass?)classObject).LimitedProperty);
+            methodInfo!.Invoke(classObject, [i]);
+
+            Assert.Equal(i, ((DemoClass)classObject).LimitedProperty);
         }
     }
 }
