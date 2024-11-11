@@ -101,13 +101,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramCalculator_3DVectors
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramCalculator_3DVectors.Tests", "CodeWars\test\ProgramCalculator_3DVectors.Tests\ProgramCalculator_3DVectors.Tests.csproj", "{B7E0D851-030D-4BE7-9A10-C41023C83450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructingCar_EngineAndFuelTank", "CodeWars\src\ConstructingCar_EngineAndFuelTank\ConstructingCar_EngineAndFuelTank.csproj", "{A6D7A020-AC18-4B52-8366-40F943DB1A20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructingCar_EngineAndFuelTank", "CodeWars\src\ConstructingCar_EngineAndFuelTank\ConstructingCar_EngineAndFuelTank.csproj", "{A6D7A020-AC18-4B52-8366-40F943DB1A20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructingCar_EngineAndFuelTank.Tests", "CodeWars\test\ConstructingCar_EngineAndFuelTank.Tests\ConstructingCar_EngineAndFuelTank.Tests.csproj", "{DB6E3D5F-C223-4EB8-AC96-3B2F3A608CCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructingCar_EngineAndFuelTank.Tests", "CodeWars\test\ConstructingCar_EngineAndFuelTank.Tests\ConstructingCar_EngineAndFuelTank.Tests.csproj", "{DB6E3D5F-C223-4EB8-AC96-3B2F3A608CCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructingCar_Driving", "CodeWars\src\ConstructingCar_Driving\ConstructingCar_Driving.csproj", "{064034DF-250A-4017-B45E-12FFB68377EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructingCar_Driving", "CodeWars\src\ConstructingCar_Driving\ConstructingCar_Driving.csproj", "{064034DF-250A-4017-B45E-12FFB68377EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructingCar_Driving.Tests", "CodeWars\test\ConstructingCar_Driving.Tests\ConstructingCar_Driving.Tests.csproj", "{0259FE86-F031-4239-8324-54792316E851}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructingCar_Driving.Tests", "CodeWars\test\ConstructingCar_Driving.Tests\ConstructingCar_Driving.Tests.csproj", "{0259FE86-F031-4239-8324-54792316E851}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HackerRank", "HackerRank", "{0C1014FE-0AED-41B2-B8AB-0F9DA21C82F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51118998-5E63-409A-B875-BA8AA8D3718C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{10C4FFD3-79B2-461E-B55D-3EABDC165AEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -372,6 +378,8 @@ Global
 		{DB6E3D5F-C223-4EB8-AC96-3B2F3A608CCC} = {DE6656A8-F6D7-4493-9409-8E99DAFB7550}
 		{064034DF-250A-4017-B45E-12FFB68377EB} = {AD382A70-E17D-4BE0-8EEF-BE89F5AB21D3}
 		{0259FE86-F031-4239-8324-54792316E851} = {DE6656A8-F6D7-4493-9409-8E99DAFB7550}
+		{51118998-5E63-409A-B875-BA8AA8D3718C} = {0C1014FE-0AED-41B2-B8AB-0F9DA21C82F5}
+		{10C4FFD3-79B2-461E-B55D-3EABDC165AEE} = {0C1014FE-0AED-41B2-B8AB-0F9DA21C82F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32768103-4A05-4B00-98B6-A6F8FF37FA0E}
