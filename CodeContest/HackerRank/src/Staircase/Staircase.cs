@@ -1,8 +1,8 @@
 ﻿namespace Staircase;
 
-public class Result
+public static class Staircase
 {
-    public static void PrintStaircase(int size)
+    public static void Print(int size)
     {
         for (var i = 1; i <= size; i++)
         {
